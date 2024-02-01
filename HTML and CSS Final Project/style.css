@@ -1,7 +1,23 @@
-
-.margin{
- margin-left: 400px;  
+*{
+    margin:0px;
+    padding: 0px;
 }
+@media (min-width:992px) {
+    .margin{
+        margin-left: 400px;  
+       }
+}
+@media (min-width:768px) {
+    .ipad{
+        margin-right: 90px;
+    }
+}
+@media (min-width:912px) {
+    .ipad{
+        margin-right: 0px;
+    } 
+}
+
 .radius{
     border: 1px solid white;
     border-radius: 50px !important;
@@ -26,9 +42,17 @@
     text-align: center;
     color: white;
 }
-.maindiv3{
+@media (min-width:992px) {
+    .maindiv3{
         padding-left: 270px;
     }
+}
+@media (max-width:576px) {
+    .cardbuttons{
+        width: 100px !important;
+    }
+    
+}
 .cardbuttons{
     color: white;
     border: 1px solid white;
@@ -39,8 +63,17 @@
     height: 40px;
     margin-left: 10px;
 }
-.maindiv4{
-    padding-left: 280px;
+@media (min-width:992px) {
+    .maindiv4{
+        padding-left: 280px;
+    }
+}
+@media (max-width:576px) {
+    .branch{
+        padding-top: 10px;
+        width: 300px !important;
+        padding-left: 0px !important;
+    }
 }
 .islamabad{
     letter-spacing: 5px;
@@ -71,6 +104,11 @@ span{
 .branch2{
     width: 640px;
     padding-right: 40px;
+}
+@media (max-width:576px) {
+    .branch2{
+        width: 400px !important;
+    }
 }
 .parts{
     width: 400px;
